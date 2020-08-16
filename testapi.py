@@ -21,7 +21,8 @@ config_list = {'每次轮数':3,
 	       '是否开启各api延时':'N','api延时范围开始':2,'api延时结束':5,
 	       '是否开启各账号延时':'Y','账号延时范围开始':60,'账号延时结束':120,
 	       '是否开启备用应用':'N','是否开启测试':'N'}
-
+id_list = [id]
+secret_list = [secret]
 num1 = [0]*len(id_list)
 path2=sys.path[0]+r'/config/randomapi.txt'
 path3=sys.path[0]+r'/config/buconfig.txt'
